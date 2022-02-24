@@ -1,0 +1,67 @@
+/* ----------------------------button 1--------------------------- */
+
+.btn1 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(50, 78, 78);
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:rgb(142, 248, 245);
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(47, 225, 219);
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: -4px 3px 3px 2px rgba(32, 35, 35, 0.3);
+}
+
+
+.svg_block1 {
+    width: 40px;
+    height: 30px;
+    font-size: 30px
+}
+
+.btn1:hover {
+    transform: scale(1.1);
+}
+
+/* ----------------------------button 2--------------------------- */
+
+
+.btn2 {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(234, 245, 245);
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color:rgb(186, 35, 135);
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: rgb(140, 10, 101);
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 4px 3px 3px 2px rgba(32, 35, 35, 0.3);
+}
+
+
+.svg_block2 {
+    width: 40px;
+    height: 30px;
+    font-size: 30px;
+    transform: scale(-1, -1);
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+}
